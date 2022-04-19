@@ -1,16 +1,16 @@
-
 ///  Мое решение ( пометка console.log не используй , лучше retern )
 function factorial(n) {
-    let a ;
-    if (!Number.isInteger(n) ) {
+
+    if (!Number.isInteger(n)) {
         return "Pleas enter correct value "
-    } else if (n>=1) {
+    } else if (n >= 1) {
         return n * factorial(n - 1);
     } else {
-        return 1 ;
+        return 1;
     }
 
 }
+
 /// Решение учителя
 /*
 function factorial(n) {
