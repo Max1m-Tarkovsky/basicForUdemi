@@ -1,7 +1,7 @@
 ///  Мое решение ( пометка console.log не используй , лучше retern )
 function factorial(n) {
 
-    if (!Number.isInteger(n)) {
+    if (!Number.isInteger(n)||typeof (n) !== 'number' ) {
         return "Pleas enter correct value "
     } else if (n >= 1) {
         return n * factorial(n - 1);
